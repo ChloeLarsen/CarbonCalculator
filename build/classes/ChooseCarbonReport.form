@@ -24,10 +24,10 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
               <Component id="pnlOptionChoice" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -94,12 +94,22 @@
                   <Component id="Separator" min="-2" pref="3" max="-2" attributes="0"/>
                   <EmptySpace type="separate" pref="24" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="2" attributes="0">
-                      <Component id="btnCO2Emission" alignment="2" min="-2" pref="176" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Component id="btnCO2Emission" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
                       <Component id="btnRide" alignment="2" pref="0" max="32767" attributes="0"/>
-                      <Component id="btnPackage" alignment="2" min="-2" pref="187" max="-2" attributes="0"/>
-                      <Component id="btnGroupRide" alignment="2" min="-2" pref="187" max="-2" attributes="0"/>
-                      <Component id="btnReserve" alignment="2" min="-2" pref="181" max="-2" attributes="0"/>
-                      <Component id="btnTravel" alignment="2" min="-2" pref="182" max="-2" attributes="0"/>
+                      <Component id="btnPackage" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                      <Component id="btnGroupRide" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                      <Group type="102" alignment="2" attributes="0">
+                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                          <Component id="btnReserve" alignment="0" min="-2" pref="181" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="2" attributes="0">
+                          <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                          <Component id="btnTravel" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
               </Group>
